@@ -1,32 +1,68 @@
-# java-data-type-conversion-examples
-Shows float range, valid and invalid assignments, literal suffix usage, and type conversion from char/long to float. Useful for Java beginners.
-# Java Float Type & Type Conversion Examples 🚀
+java-data-type-conversion-examples
+This repository contains Java example files demonstrating primitive data types and type conversion rules. Each file focuses on one data type, covering valid and invalid assignments, range limits, and compile-time errors.
 
-This Java file demonstrates the use of the `float` data type in Java along with type conversions involving:
+Included Examples
+ByteTypeExamples.java
+Shows byte min & max values (-128 to 127)
 
-- `int` to `float`
-- `long` to `float`
-- `char` to `long` to `float`
-- Invalid conversions like `boolean` or `String` to `float`
-- Unicode and literal suffix usage: `f`, `l`, `d`
+Explains byte arithmetic and type promotion to int
 
-## 📂 File: `FloatTypeExamples.java`
+Demonstrates use of final bytes in expressions
 
-### ✅ Covered Topics:
-- Float min & max range
-- Literal suffix usage (`f`, `l`, `d`)
-- Widening conversions (e.g., `char` to `float`)
-- Compile-time errors with incompatible types
+Shows ASCII character values stored in bytes
 
-### ❌ Invalid Conversion Examples:
-- Assigning `true` to float
-- Assigning `"Hello"` to float
-- Using large double literals with float (without casting)
+Includes invalid assignments causing compile errors
 
-### 🧠 Learning Outcome:
-By reading and running this file, you’ll understand how Java handles primitive type conversions and where type mismatches can cause errors.
+Great for beginners to understand byte behavior and conversions
 
----
+FloatTypeExamples.java 🚀
+This Java file demonstrates the use of the float data type in Java along with type conversions involving:
 
-## 🏷️ Tags:
-`#JavaBasics` `#FloatType` `#TypeConversion` `#DataTypes` `#LearnJava` `#JavaExamples`
+int to float
+
+long to float
+
+char to long to float
+
+Invalid conversions like boolean or String to float
+
+Unicode and literal suffix usage: f, l, d
+
+Covered Topics:
+
+Float min & max range
+
+Literal suffix usage (f, l, d)
+
+Widening conversions (e.g., char to float)
+
+Compile-time errors with incompatible types
+
+Invalid Examples:
+
+Assigning true to float
+
+Assigning "Hello" to float
+
+Using large double literals without casting
+
+Learning Outcome:
+By running this file, you’ll understand how Java handles primitive type conversions and where type mismatches cause errors.
+
+Future Plans
+More files for the remaining primitive types will be added:
+
+short
+
+int
+
+long
+
+double
+
+char
+
+boolean
+
+Tags
+#JavaBasics #TypeConversion #PrimitiveDataTypes #LearnJava #JavaExamples
